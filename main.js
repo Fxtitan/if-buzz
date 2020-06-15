@@ -1,7 +1,34 @@
 /*******************************************************************************
  * Your code here!
  ******************************************************************************/
+const number = getInput(0);
+const number2 = getInput(0);
+const number3 = getInput(0);
 
+// if(number % 3 === 0) {
+//   console.log("Fizz");
+// }
+
+// if(number % 5 === 0) {
+//   console.log("Buzz");
+// }
+
+// if(number % 15 === 0) {
+//   console.log("FizzBuzz");
+// }
+
+// return console.log(number);
+
+if(number || number2 || number3 % 3 === 0) {
+  console.log("Fizz");
+}
+else if(number || number2 || number3 % 5 === 0) {
+  console.log("Buzz");
+}
+else if(number || number2 || number3 % 15 === 0) {
+  console.log("FizzBuzz");
+}
+return console.log(number);
 
 
 
